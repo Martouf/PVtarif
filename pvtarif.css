@@ -1,0 +1,32 @@
+body {
+  background: #fcfcfa;
+}
+
+.country {
+  fill: #456;
+}
+
+.canton-boundaries {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1;
+}
+ 
+.municipality-boundaries {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .3;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 150px;                  
+  height: 25px;                 
+  padding: 2px;             
+  font-size: 10px;     
+  background: #FFFFE0;
+  border: 1px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
